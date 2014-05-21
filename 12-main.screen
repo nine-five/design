@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Icon" id="8" x="345" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="9" x="277" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="10" x="210" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="comments (custom)"/>
+  <widgets xsi:type="model:Icon" id="11" x="412" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="12" x="480" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="mobile (custom)"/>
+  <widgets xsi:type="model:Note" id="13" x="256" y="232" width="214" height="105" text="> 事项可以由谁来做？ - 候选竞争&#xD;&#xA;> 事项分派给谁了？    - 计划&#xD;&#xA;   啥时候开始？啥时候要完成？&#xD;&#xA;> 事项谁在做？          - 落实&#xD;&#xA;> 事项进展如何了？    - 监控" measuredWidth="214" measuredHeight="105" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="52" x="32" y="24" measuredWidth="673" measuredHeight="75">
+    <widgets xsi:type="model:WidgetGroup" id="39" x="181" measuredWidth="305" measuredHeight="70">
+      <widgets xsi:type="model:Panel" id="1" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+      <widgets xsi:type="model:Label" id="3" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
+        <font size="16px"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="6" x="9" y="11" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+      <widgets xsi:type="model:Label" id="14" x="40" y="40" text="{history} 3天后到期" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+        <font size="12px"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="19" x="272" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+      <widgets xsi:type="model:Icon" id="25" x="249" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+      <widgets xsi:type="model:Icon" id="54" x="275" y="14" measuredWidth="16" measuredHeight="16" icon="wrench (small)"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="26" x="479" y="49" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
+    <widgets xsi:type="model:Text" id="28" x="547" y="41" width="126" text="分配给多个候选处理者&#xD;&#xA;竞争领取任务" measuredWidth="126" measuredHeight="34" foreground="#d5a6bd" dummyText="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="37" x="125" y="19" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+    <widgets xsi:type="model:Text" id="38" y="11" width="126" height="53" text="开始处理后在上面显示执行者图标，表示此人正在干这事" measuredWidth="126" measuredHeight="53" foreground="#d5a6bd" dummyText="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="57" x="478" y="22" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
+    <widgets xsi:type="model:Text" id="58" x="546" y="14" width="126" text="综合菜单按钮" measuredWidth="126" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="23" y="87" measuredWidth="682" measuredHeight="154">
+    <widgets xsi:type="model:WidgetGroup" id="51" x="190" y="3" measuredWidth="305" measuredHeight="70">
+      <widgets xsi:type="model:Panel" id="41" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+      <widgets xsi:type="model:Label" id="42" x="40" y="8" text="001 设计登陆界面的原型" measuredWidth="181" measuredHeight="29">
+        <font size="16px"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="43" x="10" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+      <widgets xsi:type="model:Label" id="44" x="40" y="40" text="{alarm} 2天后开始" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+        <font size="12px"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="47" x="10" y="8" measuredWidth="24" measuredHeight="24" icon="play (medium)"/>
+      <widgets xsi:type="model:Shape" id="48" x="275" y="41" width="24" height="24" text="T" measuredWidth="24" measuredHeight="24">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="56" x="278" y="15" measuredWidth="16" measuredHeight="16" icon="wrench (small)"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="49" x="134" y="24" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+    <widgets xsi:type="model:Arrow" id="35" x="134" y="56" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+    <widgets xsi:type="model:Arrow" id="32" x="488" y="56" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
+    <widgets xsi:type="model:Text" id="33" x="556" y="48" width="126" height="53" text="没有特定分配时显示团队图标，团队成员可以竞争领取任务" measuredWidth="126" measuredHeight="53" foreground="#d5a6bd" dummyText="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="36" x="9" y="48" width="126" height="106" text="1. 领取任务后在下面显示取者图标，表示此人准备干这事&#xD;&#xA;2.也可管理者强制分派任务（如长久没人领取任务时）" measuredWidth="126" measuredHeight="106" foreground="#d5a6bd" dummyText="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="50" width="126" height="33" text="点此图标开始处理&#xD;&#xA;(鼠标悬停后显示)" measuredWidth="126" measuredHeight="33" textAlignment="Right" foreground="#d5a6bd" dummyText="true">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

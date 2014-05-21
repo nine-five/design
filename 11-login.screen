@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="16" y="16" width="720" height="1280" measuredWidth="720" measuredHeight="1280" background="#2b2b2b" foreground="#999999" border="none"/>
+  <widgets xsi:type="model:HLine" id="2" x="172" y="386" width="420" measuredWidth="420" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="3" x="288" y="320" text="账号/邮箱" measuredWidth="182" measuredHeight="60" foreground="#999999">
+    <font size="40px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="172" y="522" width="420" measuredWidth="420" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="324" y="463" text="密码" measuredWidth="85" measuredHeight="60" foreground="#999999">
+    <font size="40px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="6" x="304" y="608" width="128" height="128" measuredWidth="128" measuredHeight="128" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="8" x="345" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="9" x="277" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="10" x="210" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="comments (custom)"/>
+  <widgets xsi:type="model:Icon" id="11" x="412" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="12" x="480" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="mobile (custom)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

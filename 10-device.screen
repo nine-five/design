@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Text" id="1" x="8" y="8" width="401" height="289" text="红米： 4.7 英寸，1280x720&#xD;&#xA;红米 Note： 5.5 英寸，1280x720&#xD;&#xA;小米3： 5 英寸，1920x1080&#xD;&#xA;小米2S： 4.3 英寸，1280x720&#xD;&#xA;&#xD;&#xA;iPhone5： 4 英寸，1136 x 640 &#xD;&#xA;&#xD;&#xA;华为荣耀 X1： 7 英寸，1920 x 1200" measuredWidth="401" measuredHeight="289">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
