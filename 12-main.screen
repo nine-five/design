@@ -1,68 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="130" x="40" y="353" width="521" height="512" measuredWidth="521" measuredHeight="512" border="dashed-rounded"/>
   <widgets xsi:type="model:Icon" id="8" x="345" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
   <widgets xsi:type="model:Icon" id="9" x="277" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
   <widgets xsi:type="model:Icon" id="10" x="210" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="comments (custom)"/>
   <widgets xsi:type="model:Icon" id="11" x="412" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="user (xlarge)"/>
   <widgets xsi:type="model:Icon" id="12" x="480" y="1222" width="64" height="64" measuredWidth="64" measuredHeight="64" foreground="#999999" icon="mobile (custom)"/>
-  <widgets xsi:type="model:Note" id="13" x="256" y="232" width="214" height="105" text="> 事项可以由谁来做？ - 候选竞争&#xD;&#xA;> 事项分派给谁了？    - 计划&#xD;&#xA;   啥时候开始？啥时候要完成？&#xD;&#xA;> 事项谁在做？          - 落实&#xD;&#xA;> 事项进展如何了？    - 监控" measuredWidth="214" measuredHeight="105" annotation="true" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="13" x="256" y="208" width="214" height="105" text="> 事项可以由谁来做？ - 候选、竞争&#xD;&#xA;> 事项分派给谁了？    - 计划&#xD;&#xA;   啥时候开始？啥时候要完成？&#xD;&#xA;> 事项谁在做？          - 落实&#xD;&#xA;> 事项进展如何了？    - 监控" measuredWidth="214" measuredHeight="105" annotation="true" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="52" x="32" y="24" measuredWidth="673" measuredHeight="75">
-    <widgets xsi:type="model:WidgetGroup" id="39" x="181" measuredWidth="305" measuredHeight="70">
-      <widgets xsi:type="model:Panel" id="1" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
-      <widgets xsi:type="model:Label" id="3" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
-        <font size="16px"/>
-      </widgets>
-      <widgets xsi:type="model:Icon" id="6" x="9" y="11" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
-      <widgets xsi:type="model:Label" id="14" x="40" y="40" text="{history} 3天后到期" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
-        <font size="12px"/>
-      </widgets>
-      <widgets xsi:type="model:Icon" id="19" x="272" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
-      <widgets xsi:type="model:Icon" id="25" x="249" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
-      <widgets xsi:type="model:Icon" id="54" x="275" y="14" measuredWidth="16" measuredHeight="16" icon="wrench (small)"/>
+  <widgets xsi:type="model:WidgetGroup" id="39" x="213" y="24" measuredWidth="305" measuredHeight="70">
+    <widgets xsi:type="model:Panel" id="1" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+    <widgets xsi:type="model:Label" id="3" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
+      <font size="16px"/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="26" x="479" y="49" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
-    <widgets xsi:type="model:Text" id="28" x="547" y="41" width="126" text="分配给多个候选处理者&#xD;&#xA;竞争领取任务" measuredWidth="126" measuredHeight="34" foreground="#d5a6bd" dummyText="true">
-      <font/>
+    <widgets xsi:type="model:Icon" id="6" x="9" y="11" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+    <widgets xsi:type="model:Label" id="14" x="40" y="40" text="{history} 3天后到期" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+      <font size="12px"/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="37" x="125" y="19" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
-    <widgets xsi:type="model:Text" id="38" y="11" width="126" height="53" text="开始处理后在上面显示执行者图标，表示此人正在干这事" measuredWidth="126" measuredHeight="53" foreground="#d5a6bd" dummyText="true">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Arrow" id="57" x="478" y="22" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
-    <widgets xsi:type="model:Text" id="58" x="546" y="14" width="126" text="综合菜单按钮" measuredWidth="126" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
-      <font/>
-    </widgets>
+    <widgets xsi:type="model:Icon" id="19" x="272" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="dots (medium)"/>
+    <widgets xsi:type="model:Icon" id="25" x="249" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+    <widgets xsi:type="model:Icon" id="54" x="275" y="14" measuredWidth="16" measuredHeight="16" icon="wrench (small)"/>
+    <widgets xsi:type="model:Icon" id="143" x="220" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="53" x="23" y="87" measuredWidth="682" measuredHeight="154">
-    <widgets xsi:type="model:WidgetGroup" id="51" x="190" y="3" measuredWidth="305" measuredHeight="70">
-      <widgets xsi:type="model:Panel" id="41" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
-      <widgets xsi:type="model:Label" id="42" x="40" y="8" text="001 设计登陆界面的原型" measuredWidth="181" measuredHeight="29">
-        <font size="16px"/>
-      </widgets>
-      <widgets xsi:type="model:Icon" id="43" x="10" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
-      <widgets xsi:type="model:Label" id="44" x="40" y="40" text="{alarm} 2天后开始" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
-        <font size="12px"/>
-      </widgets>
-      <widgets xsi:type="model:Icon" id="47" x="10" y="8" measuredWidth="24" measuredHeight="24" icon="play (medium)"/>
-      <widgets xsi:type="model:Shape" id="48" x="275" y="41" width="24" height="24" text="T" measuredWidth="24" measuredHeight="24">
-        <font/>
-      </widgets>
-      <widgets xsi:type="model:Icon" id="56" x="278" y="15" measuredWidth="16" measuredHeight="16" icon="wrench (small)"/>
+  <widgets xsi:type="model:Arrow" id="26" x="511" y="73" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="28" x="579" y="65" width="126" text="分配给多个候选处理者&#xD;&#xA;竞争领取任务" measuredWidth="126" measuredHeight="34" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="37" x="157" y="43" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+  <widgets xsi:type="model:Text" id="38" x="32" y="35" width="126" height="53" text="开始处理后在上面显示执行者图标，表示此人正在干这事" measuredWidth="126" measuredHeight="53" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="57" x="510" y="46" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="58" x="578" y="38" width="126" text="综合菜单按钮" measuredWidth="126" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="213" y="90" measuredWidth="305" measuredHeight="70">
+    <widgets xsi:type="model:Panel" id="41" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+    <widgets xsi:type="model:Label" id="42" x="40" y="8" text="001 设计登陆界面的原型" measuredWidth="181" measuredHeight="29">
+      <font size="16px"/>
     </widgets>
-    <widgets xsi:type="model:Arrow" id="49" x="134" y="24" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
-    <widgets xsi:type="model:Arrow" id="35" x="134" y="56" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
-    <widgets xsi:type="model:Arrow" id="32" x="488" y="56" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
-    <widgets xsi:type="model:Text" id="33" x="556" y="48" width="126" height="53" text="没有特定分配时显示团队图标，团队成员可以竞争领取任务" measuredWidth="126" measuredHeight="53" foreground="#d5a6bd" dummyText="true">
+    <widgets xsi:type="model:Icon" id="43" x="247" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="arrow-left (medium)"/>
+    <widgets xsi:type="model:Label" id="44" x="40" y="40" text="{alarm} 2天后开始" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+      <font size="12px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="47" x="10" y="8" measuredWidth="24" measuredHeight="24" foreground="#eeeeee" icon="play (medium)"/>
+    <widgets xsi:type="model:Shape" id="48" x="275" y="41" width="24" height="24" text="T" measuredWidth="24" measuredHeight="24" foreground="#999999">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Text" id="36" x="9" y="48" width="126" height="106" text="1. 领取任务后在下面显示取者图标，表示此人准备干这事&#xD;&#xA;2.也可管理者强制分派任务（如长久没人领取任务时）" measuredWidth="126" measuredHeight="106" foreground="#d5a6bd" dummyText="true">
-      <font/>
+    <widgets xsi:type="model:Icon" id="56" x="278" y="15" measuredWidth="16" measuredHeight="16" icon="wrench (small)"/>
+    <widgets xsi:type="model:Icon" id="144" x="221" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="49" x="157" y="111" width="65" height="8" measuredWidth="65" measuredHeight="8" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="35" x="449" y="160" width="129" height="56" measuredWidth="129" measuredHeight="56" annotation="true" foreground="#ead1dc"/>
+  <widgets xsi:type="model:Arrow" id="32" x="511" y="143" width="69" height="8" measuredWidth="69" measuredHeight="8" annotation="true" foreground="#ead1dc" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="33" x="579" y="135" width="126" height="53" text="没有特定分配时显示团队图标，团队成员可以竞争领取任务" measuredWidth="126" measuredHeight="53" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="36" x="579" y="200" width="126" height="106" text="1. 领取任务后表示此人准备干这事&#xD;&#xA;2.也可管理者强制分派任务（如长久没人领取任务时）" measuredWidth="126" measuredHeight="106" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="50" x="32" y="104" width="126" height="21" text="点此图标开始处理" measuredWidth="126" measuredHeight="21" textAlignment="Right" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="59" x="56" y="392" measuredWidth="305" measuredHeight="70">
+    <widgets xsi:type="model:Panel" id="60" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+    <widgets xsi:type="model:Label" id="61" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
+      <font size="16px"/>
     </widgets>
-    <widgets xsi:type="model:Text" id="50" width="126" height="33" text="点此图标开始处理&#xD;&#xA;(鼠标悬停后显示)" measuredWidth="126" measuredHeight="33" textAlignment="Right" foreground="#d5a6bd" dummyText="true">
-      <font/>
+    <widgets xsi:type="model:Label" id="63" x="40" y="40" text="{alarm} 3天后到期" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+      <font size="12px"/>
     </widgets>
+    <widgets xsi:type="model:Icon" id="64" x="272" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="dots (medium)"/>
+    <widgets xsi:type="model:Icon" id="65" x="249" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+    <widgets xsi:type="model:Icon" id="115" x="220" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="67" x="56" y="632" measuredWidth="305" measuredHeight="70">
+    <widgets xsi:type="model:Panel" id="68" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+    <widgets xsi:type="model:Label" id="69" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="70" x="9" y="11" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+    <widgets xsi:type="model:Label" id="71" x="40" y="40" text="{history} 8h" measuredWidth="39" measuredHeight="25" foreground="#999999">
+      <font size="12px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="72" x="272" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="dots (medium)"/>
+    <widgets xsi:type="model:Icon" id="73" x="249" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+    <widgets xsi:type="model:Icon" id="113" x="220" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="arrow-left (medium)"/>
+    <widgets xsi:type="model:Icon" id="116" x="192" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+    <widgets xsi:type="model:Label" id="117" x="78" y="40" text="{alarm} 3天后到期" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+      <font size="12px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="142" x="9" y="41" measuredWidth="24" measuredHeight="24" foreground="#cccccc" icon="pause (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="83" x="56" y="512" measuredWidth="305" measuredHeight="70">
+    <widgets xsi:type="model:Panel" id="84" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+    <widgets xsi:type="model:Label" id="85" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="86" x="192" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+    <widgets xsi:type="model:Label" id="87" x="40" y="40" text="{alarm} 3天后到期" measuredWidth="80" measuredHeight="25" foreground="#ff0000">
+      <font size="12px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="88" x="272" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="dots (medium)"/>
+    <widgets xsi:type="model:Icon" id="89" x="249" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+    <widgets xsi:type="model:Icon" id="114" x="220" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="arrow-left (medium)"/>
+    <widgets xsi:type="model:Icon" id="138" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#cccccc" icon="filled-arrow-right (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="90" x="211" y="468" width="8" height="40" measuredWidth="8" measuredHeight="40" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="91" x="210" y="587" width="8" height="40" measuredWidth="8" measuredHeight="40" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+  <widgets xsi:type="model:Text" id="92" x="277" y="461" width="65" text="候选待认领" measuredWidth="65" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="93" x="242" y="581" width="40" text="已认领" measuredWidth="40" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="94" x="64" y="613" width="41" text="执行中" measuredWidth="41" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="102" x="56" y="752" measuredWidth="305" measuredHeight="70">
+    <widgets xsi:type="model:Panel" id="103" width="305" height="70" measuredWidth="305" measuredHeight="70"/>
+    <widgets xsi:type="model:Label" id="104" x="40" y="8" text="001 完成登陆认证的处理" measuredWidth="181" measuredHeight="29">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="105" x="9" y="11" measuredWidth="24" measuredHeight="24" icon="check (medium)"/>
+    <widgets xsi:type="model:Label" id="106" x="40" y="40" text="{history} 1d 按时完成" measuredWidth="92" measuredHeight="25" foreground="#999999">
+      <font size="12px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="107" x="272" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="dots (medium)"/>
+    <widgets xsi:type="model:Icon" id="108" x="249" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+    <widgets xsi:type="model:Icon" id="111" x="9" y="41" measuredWidth="24" measuredHeight="24" icon="user (medium)"/>
+    <widgets xsi:type="model:Icon" id="112" x="222" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="arrow-left (medium)"/>
+    <widgets xsi:type="model:Icon" id="118" x="192" y="41" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="user (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="109" x="210" y="707" width="8" height="40" measuredWidth="8" measuredHeight="40" annotation="true" foreground="#ead1dc" left="false" right="true"/>
+  <widgets xsi:type="model:Text" id="110" x="64" y="736" width="29" text="已完成" measuredWidth="29" measuredHeight="17" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="119" x="368" y="632" width="193" height="54" text="事务开始执行后，开始智能计时显示，随时监控任务的实际耗时情况。中途可以暂停办理暂停计时。" measuredWidth="193" measuredHeight="54" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="126" x="368" y="392" width="150" height="38" text="候选人中有我或我所在团队时，其图标排在第一位。" measuredWidth="150" measuredHeight="38" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="131" x="56" y="328" text="事项生命周期交互设计" measuredWidth="165" measuredHeight="30" foreground="#999999">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="132" x="345" y="447" text="1 候选" measuredWidth="45" measuredHeight="45" annotation="true" background="#f3f3f3">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="133" x="345" y="567" text="2 认领" measuredWidth="45" measuredHeight="45" annotation="true" background="#f3f3f3">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="134" x="345" y="688" text="3 执行" measuredWidth="45" measuredHeight="45" annotation="true" background="#f3f3f3">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="135" x="345" y="808" text="4 完成" measuredWidth="45" measuredHeight="45" annotation="true" background="#f3f3f3">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="136" x="400" y="684" width="151" height="54" text="可以同时有多个执行者，图标特殊显示。" measuredWidth="151" measuredHeight="54" foreground="#d5a6bd" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="139" x="368" y="512" width="150" height="38" text="候选人中有我或我所在团队时，其图标排在第一位。" measuredWidth="150" measuredHeight="38" foreground="#d5a6bd" dummyText="true">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
